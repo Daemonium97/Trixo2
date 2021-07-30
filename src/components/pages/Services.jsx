@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import { Header, TopBar , Footer, Loader } from '../layouts/general';
+import { Header,  Footer, Loader } from '../layouts/general';
 import { MainServices } from '../layouts/general/services';
 class Services extends Component {
     constructor(props) {
