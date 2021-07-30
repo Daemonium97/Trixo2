@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header, TopBar , Footer,  Loader } from '../layouts/general';
+import { Header,  Footer,  Loader } from '../layouts/general';
 import { Link } from "react-router-dom";
 
 class Contact01 extends Component {
