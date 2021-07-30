@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
+import '../aboutus/MainGrid.css'
+
 
 class MainGrid extends Component {
 	constructor(props) {
@@ -8,7 +9,7 @@ class MainGrid extends Component {
             titlegird: [
                 {
                     id: 1,
-					title: 'Company profile - Our team',
+					title: 'TRIXO',
 					description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br />incididunt ut labore et dolore magna aliqua.',
 				},
 			],
@@ -70,7 +71,23 @@ class MainGrid extends Component {
 									this.state.titlegird.map(data =>(
 										<div className="title-section center s1" key={data.id} >
 											<h2>{data.title}</h2>
-											<p className="sub-title-section">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br />incididunt ut labore et dolore magna aliqua.</p>
+											<p className="sub-title-section">TRIXO LE BRINDA SOLUCIONES INTEGRALES PARA SU EMPRESA EN EL PUNTO DE VENTA.  POR SU AMPLIO  CONOCIMIENTO EN CONSUMO MASIVO Y SU ALCANCE EN LA REGIÓN, LE OFRECEMOS  SERVICIOS DE DISPLAYS, DEMOSTRADORAS, PROMOTORAS Y ACTIVACIÓN EN EL PUNTO DE VENTA ENFOCADOS EN UN ALTO SERVICIO AL CLIENTE Y BRINDADO INFORMACIÓN POR MEDIO DE TECNOLOGÍA DE AVANZADA.</p>
+											<h2>MISIÓN</h2>
+											<p className="sub-title-section">Contribuir a cambiar la forma de generar valor a nuestros clientes por medio de nuestros servicios y soluciones, de la forma más eficiente y personalizada posible.</p>
+											<h2>VISIÓN</h2>
+											<p className="sub-title-section">Ser la empresa de servicios en consumo masivo preferida en la región por su calidad en ejecución, atención al cliente y competitividad.</p>
+											<h2>Valores</h2>
+											<ul>
+												<li>Honestidad</li>
+												<li>Colaboración</li>
+												<li>Innovacion</li>
+												<li>Confianza</li>
+												<li>Actitud</li>
+												<li>Respeto</li>
+												<li>Disfrute</li>
+												<li>Humildad</li>
+											</ul>
+											
 										</div>		
 									))
 								}
@@ -78,31 +95,7 @@ class MainGrid extends Component {
 						</div>
 					</div>
 
-					<div className="row">
-						{
-							this.state.boxgrid.map(data =>(
-								<div className="col-md-3" key={data.id} >
-									<div className="flat-team team-grid has-image">			
-										<div className="team-image">
-											<img src={data.srcimg} alt="img" />
-										</div>										
-										<div className="team-info">	
-											<div className="team-subtitle">{data.subtitle}</div>
-											<div className="team-name">{data.title}</div>			
-											<div className="team-desc"></div>
-											<div className="social-links">
-												<Link to="#" data-title="Facebook" className="facebook"><i className="fa fa-facebook"></i></Link> 
-												<Link to="#" data-title="LinkedIn" className="linkedin"><i className="fa fa-linkedin"></i></Link> 
-												<Link to="#" data-title="Google Plus" className="google-plus"><i className="fa fa-google-plus"></i></Link>
-											</div>
-										</div>
-									</div> 
-								</div> 
-
-						
-							))
-						}
-					</div>				
+							
 				</div>
 			</section>
             //   flat-row-iconbox

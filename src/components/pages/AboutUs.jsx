@@ -44,8 +44,8 @@ class AboutUs extends Component {
                                     </div>
                                     <ul className="breadcrumbs">
                                         <li><Link to="#" title="">Home<i className="fa fa-angle-right" aria-hidden="true"></i></Link></li>
-                                        <li><Link to="#" title="">About<i className="fa fa-angle-right" aria-hidden="true"></i></Link></li>
-                                        <li><Link to="#" title="">Our Team</Link></li>
+                                        <li><Link to="#" title="">Nosotros<i className="fa fa-angle-right" aria-hidden="true"></i></Link></li>
+                                        <li><Link to="#" title="">Team</Link></li>
                                     </ul>
                                     <div className="clearfix"></div>
                                 </div>
