@@ -8,7 +8,7 @@ class HeaderModern extends Component {
             linklogo: '/'
         }
     }
-    
+    //logo-blog.png
     render() {
         const { location } = this.props;
         return (
