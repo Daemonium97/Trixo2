@@ -70,13 +70,13 @@ class MainGrid extends Component {
 								{
 									this.state.titlegird.map(data =>(
 										<div className="title-section center s1" key={data.id} >
-											<h2>{data.title}</h2>
+											<h2 id="trixo">{data.title}</h2>
 											<p className="sub-title-section">TRIXO LE BRINDA SOLUCIONES INTEGRALES PARA SU EMPRESA EN EL PUNTO DE VENTA.  POR SU AMPLIO  CONOCIMIENTO EN CONSUMO MASIVO Y SU ALCANCE EN LA REGIÓN, LE OFRECEMOS  SERVICIOS DE DISPLAYS, DEMOSTRADORAS, PROMOTORAS Y ACTIVACIÓN EN EL PUNTO DE VENTA ENFOCADOS EN UN ALTO SERVICIO AL CLIENTE Y BRINDADO INFORMACIÓN POR MEDIO DE TECNOLOGÍA DE AVANZADA.</p>
-											<h2>MISIÓN</h2>
+											<h2 id="trixo">MISIÓN</h2>
 											<p className="sub-title-section">Contribuir a cambiar la forma de generar valor a nuestros clientes por medio de nuestros servicios y soluciones, de la forma más eficiente y personalizada posible.</p>
-											<h2>VISIÓN</h2>
+											<h2 id="trixo">VISIÓN</h2>
 											<p className="sub-title-section">Ser la empresa de servicios en consumo masivo preferida en la región por su calidad en ejecución, atención al cliente y competitividad.</p>
-											<h2>Valores</h2>
+											<h2 id="trixo">Valores</h2>
 											<ul>
 												<li>Honestidad</li>
 												<li>Colaboración</li>
