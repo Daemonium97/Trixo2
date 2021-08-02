@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 // import {Link} from 'react-router-dom'
+import '../general/Slider.css'
 class Slider extends Component {
+
+    
     render() {
+
         return (
                 // {/* <!-- START REVOLUTION SLIDER 5.4.2 auto mode --> */}
         <div id="banner-container" className="rev_slider_wrapper fullwidthbanner-container" data-alias="classic4export" data-source="gallery" >
@@ -39,6 +43,8 @@ class Slider extends Component {
                                 data-paddingright="[0,0,0,0]"
                                 data-paddingbottom="[0,0,0,0"
                                 data-paddingleft="[0,0,0,0]"
+                                
+                                
 
                                 >We help businesses<br />innovate and grow
                             </div>
@@ -64,6 +70,7 @@ class Slider extends Component {
                                 data-paddingright="[0,0,0,0]"
                                 data-paddingbottom="[0,0,0,0]"
                                 data-paddingleft="[0,0,0,0]"
+                                
 
                                 >With over 10 years of experience helping businesses to find<br />comprehensive solutions 
                             </div>
@@ -121,7 +128,7 @@ class Slider extends Component {
                                 data-paddingright="[0,0,0,0]"
                                 data-paddingbottom="[0,0,0,0"
                                 data-paddingleft="[0,0,0,0]"
-                                style={{color:'black'}}
+                                
 
                                 >We help businesses<br />innovate and grow
                             </div>
@@ -147,7 +154,7 @@ class Slider extends Component {
                                 data-paddingright="[0,0,0,0]"
                                 data-paddingbottom="[0,0,0,0]"
                                 data-paddingleft="[0,0,0,0]"
-                                style={{color:'black'}}
+                               
 
                                 >With over 10 years of experience helping businesses to find<br />comprehensive solutions 
                             </div>
